@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aslan\\Desktop\\Yeni Proje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj": {}
+    "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aslan\\Desktop\\Yeni Proje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj": {
+    "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aslan\\Desktop\\Yeni Proje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj",
         "projectName": "SanalCuzdanWebApp",
-        "projectPath": "C:\\Users\\aslan\\Desktop\\Yeni Proje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj",
+        "projectPath": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\SanalCuzdanWebApp.csproj",
         "packagesPath": "C:\\Users\\aslan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aslan\\Desktop\\Yeni Proje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\obj\\",
+        "outputPath": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,17 +42,25 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Syncfusion.EJ2.AspNet.Core": {
+              "target": "Package",
+              "version": "[20.4.0.40, )"
             }
           },
           "imports": [
