@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qfosiIaC6BBI/+UkFy/4NhlIO/jnVfOddq9c+MQvEjg=",
+  "Hash": "kt3+n0AoemPI7JkGR4RPv8qpPD6qCoSoYBXGTNCr9dM=",
   "Source": "SanalCuzdanWebApp",
   "BasePath": "_content/SanalCuzdanWebApp",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\favicon-16x16.png",
+      "SourceId": "SanalCuzdanWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\",
+      "BasePath": "_content/SanalCuzdanWebApp",
+      "RelativePath": "favicon-16x16.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon-16x16.png"
+    },
+    {
+      "Identity": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\favicon-32x32.png",
+      "SourceId": "SanalCuzdanWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\",
+      "BasePath": "_content/SanalCuzdanWebApp",
+      "RelativePath": "favicon-32x32.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon-32x32.png"
     },
     {
       "Identity": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\js\\site.js",
@@ -1069,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\logo.png",
+      "SourceId": "SanalCuzdanWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\",
+      "BasePath": "_content/SanalCuzdanWebApp",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\Profile.jpg",
+      "SourceId": "SanalCuzdanWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aslan\\Desktop\\WebProje\\SanalCuzdanWebApp\\SanalCuzdanWebApp\\wwwroot\\",
+      "BasePath": "_content/SanalCuzdanWebApp",
+      "RelativePath": "Profile.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Profile.jpg"
     }
   ]
 }

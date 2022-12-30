@@ -9,11 +9,11 @@ namespace SanalCuzdanWebApp.Models
         [Key]
         public int TransactionId { get; set; }
 
-        [Range(1, int.MaxValue, ErrorMessage = "Please select a category.")]
+        [Range(1, int.MaxValue, ErrorMessage = "Lütfen Kategori Seçiniz!")]
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
 
-        [Range(1, int.MaxValue, ErrorMessage = "Amount should be greater than 0.")]
+        [Range(1, int.MaxValue, ErrorMessage = "Lütfen Tutar Giriniz!")]
         public int Amount { get; set; }
 
         [Column(TypeName = "nvarchar(75)")]
@@ -35,7 +35,7 @@ namespace SanalCuzdanWebApp.Models
         {
             get
             {
-                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
+                return ((Category == null || Category.Type == "Expense") ? "-" : "+")+ Amount + " " + Amount.ToString("TL");
             }
         }
 
