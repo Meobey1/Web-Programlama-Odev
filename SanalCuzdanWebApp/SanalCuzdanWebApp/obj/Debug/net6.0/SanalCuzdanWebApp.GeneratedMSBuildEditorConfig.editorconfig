@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aslan\Desktop\WebProje\SanalCuzdanWebApp\SanalCuzdanWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aslan/Desktop/WebProje/SanalCuzdanWebApp/SanalCuzdanWebApp/Views/AppUser/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aslan/Desktop/WebProje/SanalCuzdanWebApp/SanalCuzdanWebApp/Views/AppUser/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aslan/Desktop/WebProje/SanalCuzdanWebApp/SanalCuzdanWebApp/Views/Category/AddOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkT3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
