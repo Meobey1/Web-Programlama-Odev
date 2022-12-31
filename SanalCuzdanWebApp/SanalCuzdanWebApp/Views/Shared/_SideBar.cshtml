@@ -6,48 +6,48 @@
 
     menuItems.Add(new
     {
-        text = "General",
+        text = "Yönetim",
         separator = true,
     });
     menuItems.Add(new
     {
-        text = "Dashboard",
+        text = "Gösterge Paneli",
         url = "/",
         iconCss = "fa-solid fa-box",
     });
     menuItems.Add(new
     {
-        text = "Categories",
+        text = "Kategoriler",
         url = "/Category",
         iconCss = "fa-solid fa-folder-closed",
     });
     menuItems.Add(new
     {
-        text = "Transactions",
+        text = "İşlemler",
         iconCss = "fa-solid fa-arrow-right-arrow-left",
         url = "/Transaction"
     });
 
     menuItems.Add(new
     {
-        text = "Extras",
+        text = "Üye İşlemleri",
         separator = true,
     });
     menuItems.Add(new
     {
-        text = "Reports",
-        iconCss = "fa-solid fa-chart-simple",
-        url = "#"
+        text = "Üye Ol",
+        iconCss = "fa-solid fa-box",
+        url = "/login"
     }); menuItems.Add(new
     {
-        text = "Settings",
-        iconCss = "fa-solid fa-gear",
-        url = "#"
+        text = "Giriş",
+        iconCss = "fa-solid fa-box",
+        url = "/Register"
     });
 }
 
 
-<ejs-sidebar id="sidebar" width="290px" enableDock dockSize="100px"
+<ejs-sidebar id="sidebar" width="280px" enableDock dockSize="50px"
              target=".dock-target" enableGestures="false">
     <e-content-template>
 
