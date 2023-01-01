@@ -1,7 +1,7 @@
 ﻿@model SanalCuzdanWebApp.Models.Category
 
 @{
-    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Create a new category" : "Edit category";
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Yeni Kategori Oluştur" : "Kategori Düzenle";
 }
 
 
@@ -13,20 +13,20 @@
                 <input type="hidden" name="CategoryId" value="@Model.CategoryId" />
                 <div class="mb-3">
                     <div class='e-btn-group custom-rbt-group'>
-                        <input type="radio" id="radioleft" name="Type" value="Expense" checked="@(Model.Type=="Expense")" />
-                        <label class="e-btn" for="radioleft">Expense</label>
                         <input type="radio" id="radiomiddle" name="Type" value="Income" checked="@(Model.Type=="Income")" />
-                        <label class="e-btn" for="radiomiddle">Income</label>
+                        <label class="e-btn" for="radiomiddle">Gelir</label>
+                        <input type="radio" id="radioleft" name="Type" value="Expense" checked="@(Model.Type=="Expense")" />
+                        <label class="e-btn" for="radioleft">Gider</label>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <ejs-textbox id="title" placeholder="Title" ejs-for="Title" floatLabelType="Always"></ejs-textbox>
+                    <ejs-textbox id="title" placeholder="Başlık" ejs-for="Title" floatLabelType="Always"></ejs-textbox>
                     <span asp-validation-for="Title" class="text-danger fs-6"></span>
                 </div>
                 <div class="mb-3">
-                    <ejs-textbox id="icon" placeholder="Icon" ejs-for="Icon" floatLabelType="Always"></ejs-textbox>
+                    <ejs-textbox id="icon" placeholder="İkon" ejs-for="Icon" floatLabelType="Always"></ejs-textbox>
                 </div>
-                <ejs-button id="submit" type="submit" content="Submit" cssClass="e-success"></ejs-button>
+                <ejs-button id="submit" type="submit" content="Oluştur" cssClass="e-success"></ejs-button>
             </form>
         </div>
 
